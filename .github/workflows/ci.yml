@@ -8,7 +8,7 @@ on:
 
 jobs:
   retrain:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     env:
       MLFLOW_TRACKING_URI: file://$(pwd)/mlruns
@@ -51,7 +51,7 @@ jobs:
         docker push fikrifaizz/mlflow-training:latest
 
     - name: Upload artifact to GitHub
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: mlflow-artifacts
         path: mlruns/
