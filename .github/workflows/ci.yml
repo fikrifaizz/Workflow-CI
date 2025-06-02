@@ -47,7 +47,7 @@ jobs:
       run: pip install mlflow
 
     - name: Upload to GitHub (as artifact)
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@8dcacd84f648cd9c8cc6c4998aa6e0d2f3f4f80d
       with:
         name: mlruns-folder
         path: mlruns/
