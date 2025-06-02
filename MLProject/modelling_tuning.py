@@ -10,7 +10,9 @@ mlflow.set_tracking_uri("https://fikrifaizz:0c53f4378e077d3ab698ce58b32bc9e3b5e5
 mlflow.set_experiment("MLFlow Tuning with DagsHub")
 
 # === LOAD DATA ===
-df = pd.read_csv("ai_dev_productivity_processed.csv")
+import os
+dataset_path = os.path.join(os.path.dirname(__file__), "ai_dev_productivity_processed.csv")
+df = pd.read_csv(dataset_path)
 X = df.drop("task_success", axis=1)
 y = df["task_success"]
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
