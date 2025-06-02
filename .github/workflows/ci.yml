@@ -8,7 +8,7 @@ on:
 
 jobs:
   retrain:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
 
     env:
       MLFLOW_TRACKING_URI: file://$(pwd)/mlruns
