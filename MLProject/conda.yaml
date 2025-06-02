@@ -5,7 +5,7 @@ dependencies:
   - python=3.12.7
   - pandas
   - scikit-learn
-  - mlflow==2.19.0
   - pip
   - pip:
-    - joblib
+      - mlflow==2.19.0
+      - joblib
