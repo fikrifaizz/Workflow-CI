@@ -26,8 +26,8 @@ jobs:
       run: |
         pip install mlflow==2.19.0 scikit-learn pandas joblib
 
-    - name: Run MLflow project
-      run: mlflow run MLProject/
+    - name: Run MLflow project without conda
+      run: mlflow run MLProject/ --no-conda
 
     - name: Get MLflow latest run ID
       id: get_run
