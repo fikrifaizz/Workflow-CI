@@ -7,4 +7,4 @@ entry_points:
     parameters:
       data_path: {type: str, default: "ai_dev_productivity_processed.csv"}
     command: >
-      python modelling.py --data_path {data_path}
+      python modelling_tuning.py --data_path {data_path}
