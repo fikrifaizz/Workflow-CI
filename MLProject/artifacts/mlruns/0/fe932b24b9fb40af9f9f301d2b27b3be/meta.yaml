@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/fe932b24b9fb40af9f9f301d2b27b3be/artifacts
+end_time: 1748891073513
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe932b24b9fb40af9f9f301d2b27b3be
+run_name: enchanting-moth-734
+run_uuid: fe932b24b9fb40af9f9f301d2b27b3be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748891064920
+status: 3
+tags: []
+user_id: runner
