@@ -51,7 +51,7 @@ jobs:
         docker push fikrifaizz/mlflow-training:latest
 
     - name: Upload artifact to GitHub
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v2.3.1
       with:
         name: mlflow-artifacts
         path: mlruns/
