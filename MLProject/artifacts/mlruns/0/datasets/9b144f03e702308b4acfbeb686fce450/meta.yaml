@@ -8,5 +8,5 @@ schema: '{"mlflow_colspec": [{"type": "double", "name": "hours_coding", "require
   "long", "name": "bugs_reported", "required": true}, {"type": "double", "name": "ai_usage_hours",
   "required": true}, {"type": "double", "name": "cognitive_load", "required": true}]}'
 source: '{"tags": {"mlflow.user": "runner", "mlflow.source.name": "modelling.py",
-  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "c221720bb4a4e131ef43e57df4f34adb21c58fc0"}}'
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "392a091ccf5af25af43846f4dd96095102bb75d5"}}'
 source_type: code

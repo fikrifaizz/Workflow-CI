@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/fe561df47f0e4e2daecf8e352a4e9f87/artifacts
+end_time: 1793469791923
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe561df47f0e4e2daecf8e352a4e9f87
+run_name: enchanting-goose-43
+run_uuid: fe561df47f0e4e2daecf8e352a4e9f87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1793469786436
+status: 3
+tags: []
+user_id: runner
